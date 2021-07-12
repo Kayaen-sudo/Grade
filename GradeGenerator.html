@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- ex2.html
+     Letter Grade
+     -->
+<html lang = "en">
+  <head>
+    <title> Letter Grade </title>
+    <meta charset = "utf-8" />
+    <script type = "text/javascript"  src = "ex2.js" ></script>
+    <link rel="stylesheet" type="text/css" href="ex2.css"/>
+  </head>
+  <body>
+       
+    <p> Enter a number grade to display the correspoding letter grade below</p>
+
+    <form>
+      <p>
+      <label> Enter your number grade:
+        <input type = "text" id = "numberGrade"  
+               size = "3" />
+      </label>
+      <label> Grade Score:
+        <input type = "text"  id = "gScore" 
+               size = "15" 
+               onfocus = "this.blur();" />
+      </label>
+      </p>
+
+      <p>
+      <p>
+         <input type="button" onclick="myGrade()" ondblclick="clean()" value="Calculate" id="calc" >
+        <input type="reset">
+      </p>
+      </p>
+    </form>
+    <script type = "text/javascript"  src = "ex2.js" ></script>
+  </body>
+</html>
